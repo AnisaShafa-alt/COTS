@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cots</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <span>COTS 1 ProWeb</span>
+    <span>Hi, [103092400078 - ANISA SHAFA SALSABILA]</span>
+  </header>
+
+  <!-- TOOLBAR -->
+  <nav class="toolbar">
+    <div class="d-flex gap-2 flex-wrap">
+
+      <button class="btn btn-outline-secondary">
+        <img src="ICONS/kotak-masuk-abu.svg" class="icon" alt="">
+        Incoming Letter
+      </button>
+
+      <button class="btn btn-outline-secondary">
+        <img src="ICONS/folder-abu.svg" class="icon" alt="">
+        My Folder
+      </button>
+
+    </div>
+
+    <div class="search-box">
+      <input type="text" class="form-control" placeholder="Search ...">
+
+      <button class="btn btn-outline-secondary" aria-label="Search">
+        <img src="ICONS/cari-abu-gelap.svg" class="icon" alt="">
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE LAYOUT -->
+  <div class="page-layout">
+
+    <!-- SIDEBAR INCOMING LETTER -->
+    <aside class="sidebar">
+
+      <div class="sidebar-title">Incoming Letter</div>
+
+      <div class="letter-item">
+        <img src="ICONS/surat-abu-muda.svg" class="letter-icon" alt="">
+
+        <div class="letter-content">
+          <div class="letter-top">
+            <div class="sender">
+              Direktur Pusat Teknologi Informasi TELKOM UNIVERSITY
+            </div>
+
+            <div class="date">14 Oct<br>14:11</div>
+          </div>
+
+          <div class="subject">
+            Tindak Lanjut Permohonan Perubahan Dosen Wali
+          </div>
+        </div>
+      </div>
+
+      <div class="letter-item">
+        <img src="ICONS/surat-abu-muda.svg" class="letter-icon" alt="">
+
+        <div class="letter-content">
+          <div class="letter-top">
+            <div class="sender">
+              Kepala Bagian Admisi Internasional Telkom University
+            </div>
+
+            <div class="date">14 Oct<br>11:26</div>
+          </div>
+
+          <div class="subject">
+            Undangan Koordinasi Registrasi Mahasiswa Asing
+          </div>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- MAIN DASHBOARD -->
+    <main class="main-content">
+
+      <div class="dashboard-heading">
+        <div class="dashboard-tab">Dashboard</div>
+        <div class="dashboard-background"></div>
+          <div class="dashboard-line"></div>
+      </div>
+      <div class="dashboard-orange-line"></div>
+
+      <!-- CREATE BUTTONS -->
+      <div class="create-buttons">
+
+        <button class="btn">
+          <img src="ICONS/dokumen-abu.svg" class="icon icon-small" alt="">
+          Create Internal Letter
+        </button>
+
+        <button class="btn">
+          <img src="ICONS/dokumen-abu.svg" class="icon icon-small" alt="">
+          Create External Letter
+        </button>
+
+        <button class="btn">
+          <img src="ICONS/dokumen-abu.svg" class="icon icon-small" alt="">
+          Create Invitational Letter
+        </button>
+
+      </div>
+
+      <!-- SUMMARY CARDS -->
+      <div class="row g-3">
+
+        <!-- NEED FOLLOW UP -->
+        <div class="col-12 col-md-4">
+          <div class="card summary-card green">
+
+            <div class="card-body">
+              <img src="ICONS/kotak-masuk-putih.svg" class="summary-icon" alt="">
+
+              <div>
+                <div class="summary-number">0</div>
+                <div class="summary-label">Need Follow Up</div>
+              </div>
+            </div>
+
+            <div class="summary-footer green-text">
+              <span>View Details</span>
+              <img src="ICONS/panah-hijau.svg" class="icon" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- INCOMING LETTER -->
+        <div class="col-12 col-md-4">
+          <div class="card summary-card blue">
+
+            <div class="card-body">
+              <img src="ICONS/dokumen-putih.svg" class="summary-icon" alt="">
+
+              <div>
+                <div class="summary-number">0</div>
+                <div class="summary-label">Incoming Letter</div>
+              </div>
+            </div>
+
+            <div class="summary-footer blue-text">
+              <span>View Details</span>
+              <img src="ICONS/panah-biru.svg" class="icon" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- DISPOSITION -->
+        <div class="col-12 col-md-4">
+          <div class="card summary-card red">
+
+            <div class="card-body">
+              <img src="ICONS/percakapan-putih.svg" class="summary-icon" alt="">
+
+              <div>
+                <div class="summary-number">0</div>
+                <div class="summary-label">Disposition</div>
+              </div>
+            </div>
+
+            <div class="summary-footer red-text">
+              <span>View Details</span>
+              <img src="ICONS/panah-merah.svg" class="icon" alt="">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TODO PANEL -->
+      <section class="todo-panel">
+
+        <div class="todo-title">Todo</div>
+
+        <div class="todo-search">
+          <input type="text" placeholder="Search todo...">
+          <img src="ICONS/cari-abu-gelap.svg" class="icon" alt="">
+        </div>
+
+      </section>
+
+      <div class="empty-todo">
+        You don't have ToDo
+      </div>
+
+    </main>
+  </div>
+
+</body>
+</html>
